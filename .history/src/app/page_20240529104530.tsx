@@ -1,0 +1,11 @@
+export default function Home(){
+  return (
+    <div>
+    <header className = "text-2xl">
+    <h1 className="text-2xl">Todos</h1>
+    <Link href=/new>New</Link>
+    </header>
+    <ul></ul>
+    </div>
+    );
+}
